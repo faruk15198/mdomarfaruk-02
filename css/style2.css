@@ -1,0 +1,469 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@ 0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+img{
+    max-width: 100%;
+    /* max-height: 100%; */
+}
+body{
+    margin:0px;
+    padding:0px;
+    font-family: 'Roboto', sans-serif;
+}
+/* this commernt is for header,logo,menu */
+.header_content{
+    border-bottom: 2px solid #ffbb67;
+    background: #ffffffe8;
+}
+    .container {
+    width: 1170px;
+    margin: auto;
+    display: table;
+}
+
+.logo_inner {
+    width: 135px;
+    float: left;
+    }
+
+img.image {
+    max-width: 100%;
+}
+
+.Menu_inner {
+    width: 800px;
+    color: white;
+    float: right;
+    }
+
+.Menu_inner ul {
+    float: right;
+    list-style: none;
+    position: relative;
+}
+
+.Menu_inner ul li {
+    float: left;
+    border-right: 1px solid #e1e1e1;
+}
+.Menu_inner ul li:last-child{
+border-right: none;
+}
+
+.Menu_inner ul li a {
+    text-decoration: none;
+    font-size: 17px;
+    color: #382004;
+    transition:  all 1s;
+    padding: 26px 25px;
+    text-transform: uppercase;
+    display: block;
+    letter-spacing: 3px;
+}
+.Menu_inner ul li a:hover {
+    background: #011c3d;
+    color: #ff7e00;
+}
+
+/*THIS IS SUBMENU CSS COMMENT BOX*/
+#subMenu{
+    list-style: none;
+    background: #00000033;
+    position: absolute;
+    width: 280px;
+    top: 120px;
+    visibility: hidden;
+    border-radius: 5px;
+
+}
+#subMenu li{
+    float: none;
+    border-right: none;
+left: 0px;
+transition: none;
+}
+#subMenu li a{
+    font-size: 14px;
+    padding: 14px 14px;
+    letter-spacing: 3px;
+    border-radius: 5px;
+
+}
+
+.Menu_inner ul li:hover #subMenu {
+    color: #ff7e00;
+    visibility: visible;
+
+    
+}
+/* this commernt is marquee section 1 */
+section#br_news_section {
+    background: #011c3d;
+    color: orange;
+}
+
+.br_title {
+    width: 140px;
+    float: left;
+    padding: 10px 0px;
+    background: #f18d00;
+    font-size: 19px;
+    font-family: kalpurush;
+    text-align: center;
+    color: #e9e9e9;
+}
+
+.br_descip {
+    width: 1030px;
+    float: right;
+    padding: 7px 0px;
+    color: #ffe9b1;
+    font-size: 20px;
+}
+
+.br_descip marquee {
+    font-family: kalpurush;
+}
+.banner_section{
+    background:no-repeat;
+        background-size: cover;
+}
+
+/* this commernt is for bannder section 1 */
+
+
+img#banner {
+/* background: url(../Photo/) no-repeat; */
+padding: 0px;
+font-family: sans-serif;
+background-size: cover;
+width: 100%;
+margin: auto;
+}
+.banner_img {border-bottom: 2px solid #dba67a;}
+img#image {
+    border-radius: 104px;
+    border: 2px solid #0b0908;
+    width: 161px;
+    margin: auto;
+}
+
+}
+section.section_1 {
+    background:#dddd;
+    background-size: cover;
+}
+.My_content{
+    overflow: hidden;
+}
+.content_box1{
+    
+width: 370px;
+    
+float: left;
+    
+border: 2px solid #ff6d00;
+    
+margin: 20px 8px;
+    
+border-radius: 8px;
+    
+background: #fdffdfcf;
+    
+padding-top: 12px;
+    
+box-shadow: 0px 13px 8px #958d8d;
+    
+transition: .8s;
+    
+animation-name: xoomInmyBox;
+    
+animation-duration: 2s;
+}
+.content_box1:hover{background: #ff95008f;transform: scale(0.9);}
+section#Middle {
+    background: #b7b7b7;
+    padding: 15px 0px;
+    /* border-radius: 5px; */
+    border-bottom: 1px solid #ffa500!important;
+}
+.Service_title {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.Service_title h3 {
+    display: inline-block;
+    font-size: 40px;
+    border-right: 2px solid #ff8d00;
+    border-left: 2px solid #ff8d00;
+    border-bottom: 2px solid #ff8d00;
+    padding: 5px 17px;
+    border-radius: 4px 0px 12px 12px;
+    color: #ff7e00;
+}
+.our_2content{
+
+}
+.our_content {
+    overflow: hidden;
+    margin: 10px 49px;
+}
+.book_icon {
+    width: 40px;
+    /* background: aliceblue; */
+    margin: auto;
+    border-radius: 7px;
+    padding: 2px 4px;
+    margin-bottom: 4px;
+    height: 37px;
+}
+.content_box {
+    width: 250px;
+    background: #e8e8e8;
+    padding: 6px 0px;
+    overflow: hidden;
+    float: left;
+    border-radius: 10px 10px;
+    margin: 3px 7px;
+    transition: all 1s;
+    border:2px solid orange;
+    animation-name: xoomInmyBox;
+    animation-duration: 2s;
+
+}
+.content_box:hover{
+    background: #f5ff9e;
+    transform:rotate(360deg);
+}
+
+@keyframes xoomInmyBox{
+    from{transform:scale(0.1) }
+    to{ transform:scale(1) }
+}
+
+
+.Service_box {
+    width: 210px;
+    margin: auto;
+    padding-bottom: 10px;
+    cursor: pointer;
+    text-align: center;
+    }
+
+.Service_box h1 {
+    text-align: center;
+    margin: 8px 0px;
+    color: #ca6400;
+    border-bottom: 2px solid;
+    display: inline-block;
+}
+
+.Service_box p {
+    text-align: center;
+    color: #696868;
+    font-size: 14px;
+}
+
+/*this comment is footer copy write and footer widget*/
+.copywrite_wrapper {
+    background: #011c3d;
+    color: #999696;
+    padding: 35px;
+    font-size: 21px;
+}
+
+footer {
+    background: #0c2d55;
+}
+
+.footer_widget {
+    width: 310px;
+    float: left;
+    margin: 53px 29px;
+    padding: 20px 10px;
+    border-right: 2px solid #3b4755;
+    line-height: 20px;
+}
+.footer_widget:last-child{
+    border-right: none;
+
+}
+.widget_title {
+    color: #ccc8c8;
+    border-bottom: 2px solid orange;
+    display: inline-block;
+    margin: 16px 20px;
+}
+.widget_title h2 {
+    font-size: 21px;
+    color: #bcbcbc;
+}
+
+.widget_content ul {list-style: none;}
+
+.widget_content ul li {
+    color: #dfc3c3;
+}
+
+.widget_content ul li a {
+    text-decoration: none;
+    color: #9b9a9a;
+    transition: .5s;
+}
+.widget_content ul li a:hover {
+    text-decoration: underline;
+    color: orange;
+}
+.widget_content {
+    padding-left: 20px;
+    line-height: 30px;
+}
+
+/* The comment of the box about content box*/
+.about_box {
+    width: 470px;
+    float: left;
+}
+
+.about_photo {
+    width: 500px;
+    float: right;
+    padding: 0px 86px;
+}
+.aboutcontent_box {
+    overflow: hidden;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+.about_title {
+    font-size: 30px;
+    font-family: sans-serif;
+    color: #090404;
+    transition: all 1s;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+    cursor: pointer;
+}
+.about_title:hover{
+    transform: translateY(-20px);
+    border-bottom:2px solid orange;
+}
+.about_des {
+    font-size: 19px;
+    line-height: 40px;
+    text-align: justify;
+    color: #4f4f4c;
+}
+
+.about_des p {letter-spacing: 0px;word-spacing: 3px;}
+section#about_section {
+    border-bottom: 2px solid #e5e5e5;
+    padding: 35px;
+    background: #f6f1de;
+}  
+/* This comment is for neon button*/
+.login_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 30vh;
+    background: #021936;
+    margin-top: 185px;
+}
+.Neon_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background:#031321;
+}
+.neon_a{
+    position: relative;
+    display: inline-block;
+    padding:15px 30px;
+    color: #19e308;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 24px;
+    overflow: hidden;
+    transition: 0.2s;
+    border-radius: 5px;
+}
+
+.neon_a:hover{
+    color: #1a8910;
+    background: #19e308;
+    box-shadow: 0 0 10px #19e308,0 0 40px #19e308,0 0 80px #19e308;
+    transition-delay: 1s;
+}
+
+.neon_a span {
+    position: absolute;
+    display: block;
+}
+.neon_a span:nth-child(1) 
+{
+    top: 0px;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg,transparent, #19e308);
+}
+.neon_a:hover span:nth-child(1)
+{
+    left: 100%;
+    transition:1s;
+
+}
+
+.neon_a span:nth-child(3) 
+{
+    bottom: 0px;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg,transparent, #19e308);
+}
+.neon_a:hover span:nth-child(3)
+{
+    right: 100%;
+    transition:1s;
+    transition-delay: .5s;
+}
+.neon_a span:nth-child(2) 
+{
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg,transparent, #19e308);
+}
+.neon_a:hover span:nth-child(2)
+{
+    top: 100%;
+    transition: 1s;
+    transition-delay: .25s;
+}
+.neon_a span:nth-child(4) 
+{
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg,transparent, #19e308);
+}
+.neon_a:hover span:nth-child(4)
+{
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: .75s;
+}

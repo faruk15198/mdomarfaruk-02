@@ -1,0 +1,77 @@
+.body{
+	font-family: arial;
+	margin: 0px;
+	padding: 0px;
+}
+.header_area{
+border-bottom: 2px solid #dddd;}
+.container{
+	width: 1180px;
+	margin: auto;
+	
+	display: table;
+
+}
+.left_logoinner{
+	width: 200px;
+	
+	float:left;
+
+}
+.image{
+	width: 122px;
+}
+.right_Menuinner{
+	width: 900px;
+	color: #333; float:right;
+}
+.right_Menuinner ul{ list-style: none; padding:0px;
+	float: right;margin-top: 40px;
+}
+.right_Menuinner ul li{ display: inline-block; 
+
+}
+.right_Menuinner ul li a{ text-decoration: none;
+	font-family: arial;
+ font-size: 20px;color:tomato;
+ transition: .5s;
+
+	padding: 10px 14px;
+	text-transform: uppercase;
+}
+.right_Menuinner ul li a:hover{
+background: orange; color: white; border-radius: 5px;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.table_container{margin:auto;
+border-collapse:collapse;
+border-color: #000000;
+background:#dad2d2;
+font-family: arial;
+font-size: 20px;
+}
+.Table_Design h2{
+	color:green;
+	text-align:center;
+	font-family: arial;
+	font-size: 20px;
+}
